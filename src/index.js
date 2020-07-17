@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import App from './App'
+import Header from './componets/Layout/Header';
+import Footer from './componets/Layout/Footer';
+import App from './App';
+
+// Application Styles
+// import './styles/bootstrap.scss';
+// import './styles/app.scss'
 
 const renderDom = Component => {
     render(
-        <Component />,
+        <Header></Header>,
         document.getElementById('app')
     );
 }
 renderDom(App);
-function t1() {
-    console.log("t1");
-}
-
-t1();
+<Footer></Footer>
