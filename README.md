@@ -34,6 +34,8 @@ cnpm install -D webpack-cli
 
 cnpm install resolve-cwd
 
+npm install webpack-dev-server -g
+
 ```
 
 项目目录和源码
@@ -55,7 +57,7 @@ cnpm install resolve-cwd
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>海洋地质调查全流程信息化支持系统</title>
+    <title>Title</title>
 </head>
 <body>
     <div id="app">
@@ -76,3 +78,11 @@ https://blog.zfanw.com/difference-between-dependencies-and-devdependencies/
 
 ##### babel
 https://zhuanlan.zhihu.com/p/43249121
+
+##### develop tool
+
+https://www.valentinog.com/blog/babel/
+
+https://www.cnblogs.com/xiaokebb/p/9448734.html
+
+https://webpack.docschina.org/guides/development/

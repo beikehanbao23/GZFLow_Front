@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
 import App from './App'
 
@@ -9,7 +9,7 @@ const renderDom = Component => {
     );
 }
 renderDom(App);
-function t1(){
+function t1() {
     console.log("t1");
 }
 
